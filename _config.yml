@@ -34,6 +34,9 @@ theme: jekyll-theme-chirpy
 plugins:
   - jekyll-feed
 
+paginate: 10          # 首页每页显示 10 篇文章（可自定义）
+paginate_path: "/page:num/"  # 分页路径（固定格式，不要改）
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
