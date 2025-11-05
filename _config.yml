@@ -33,7 +33,8 @@ github_username:  zoudifei
 remote_theme: jekyll-theme-chirpy
 plugins:
   - jekyll-feed
-
+  - jekyll-remote-theme
+  
 paginate: 10          # 首页每页显示 10 篇文章（可自定义）
 paginate_path: "/page:num/"  # 分页路径（固定格式，不要改）
 
