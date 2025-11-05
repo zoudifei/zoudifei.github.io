@@ -35,7 +35,10 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "jekyll-theme-chirpy", "~> 7.4"
 
 gem "jekyll-theme-clean-blog", "~> 4.0"
+
+gem "github-pages", group: :jekyll_plugins
 gem "jekyll-remote-theme"
+
 # Chirpy 必需插件
 gem "jekyll-paginate"       # 分页功能
 gem "jekyll-sitemap"        # 站点地图
