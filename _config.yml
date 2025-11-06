@@ -27,12 +27,16 @@ url: "https://zoudifei.github.io" # the base hostname & protocol for your site, 
 author: "沐青桦"
 github_username:  zoudifei
 
-
+timezone: Asia/Shanghai
 
 # Build settings
-remote_theme: jekyll-theme-chirpy
+remote_theme: cotes2020/jekyll-theme-chirpy
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
   - jekyll-remote-theme
   
 paginate: 10          # 首页每页显示 10 篇文章（可自定义）
