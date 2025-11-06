@@ -16,6 +16,12 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-remote-theme"
+  # Chirpy 必需插件
+  gem "jekyll-paginate"       # 分页功能
+  gem "jekyll-sitemap"        # 站点地图
+  gem "jekyll-seo-tag"        # SEO 优化
+  gem "jekyll-redirect-from"  # 链接重定向
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -32,14 +38,10 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-remote-theme"
+# gem "github-pages", group: :jekyll_plugins
+
 gem "jekyll-theme-chirpy", "~> 7.4"
 
 
 
-# Chirpy 必需插件
-gem "jekyll-paginate"       # 分页功能
-gem "jekyll-sitemap"        # 站点地图
-gem "jekyll-seo-tag"        # SEO 优化
-gem "jekyll-redirect-from"  # 链接重定向
+
