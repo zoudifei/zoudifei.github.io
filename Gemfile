@@ -32,12 +32,11 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
-gem "jekyll-theme-chirpy", "~> 7.4"
-
-gem "jekyll-theme-clean-blog", "~> 4.0"
-
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll-remote-theme"
+gem "jekyll-theme-chirpy", "~> 7.4"
+
+
 
 # Chirpy 必需插件
 gem "jekyll-paginate"       # 分页功能
