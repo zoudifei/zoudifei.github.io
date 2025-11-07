@@ -16,7 +16,7 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-remote-theme"
+  gem "jekyll-remote-theme", "~> 0.4.3"  # 升级到最新兼容版本
   # Chirpy 必需插件
   gem "jekyll-paginate"       # 分页功能
   gem "jekyll-sitemap"        # 站点地图
