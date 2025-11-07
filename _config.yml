@@ -30,7 +30,7 @@ github_username:  zoudifei
 timezone: Asia/Shanghai
 
 # Build settings
-remote_theme: cotes2020/jekyll-theme-chirpy
+remote_theme: cotes2020/jekyll-theme-chirpy@v6.3.1
 plugins:
   - jekyll-feed
   - jekyll-paginate
