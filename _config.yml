@@ -32,27 +32,27 @@ social:
   links:
     - https://www.zoudifei.com  # 可选，版权信息中的链接
   email: mutsinghua@gmail.com
-  
+
 lang: zh-CN
 timezone: Asia/Shanghai
 # _config.yml
 tabs:
-  - name: categories          # 分类列表 Tab
+  - name: 分类          # 分类列表 Tab
     icon: fas fa-folder # 分类图标
     url: /categories/   # 分类列表页路径（需与分类页面 permalink 一致）
     order: 2
 
-  - name: tag         # 标签列表 Tab（可选，与分类搭配使用）
+  - name: 标签         # 标签列表 Tab（可选，与分类搭配使用）
     icon: fas fa-tags
     url: /tags/
     order: 3
 
-  - name: archives         # 标签列表 Tab（可选，与分类搭配使用）
+  - name: 归档         # 标签列表 Tab（可选，与分类搭配使用）
     icon: fas fa-box-archive
     url: /archives/
     order: 4
 
-  - name: about
+  - name: 关于
     icon: fas fa-user
     url: /about/
     order: 5
