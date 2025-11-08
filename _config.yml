@@ -32,8 +32,9 @@ social:
   links:
     - https://www.zoudifei.com  # 可选，版权信息中的链接
   email: mutsinghua@gmail.com
+  
 lang: zh-CN
-
+timezone: Asia/Shanghai
 # _config.yml
 tabs:
   - name: categories          # 分类列表 Tab
@@ -56,7 +57,7 @@ tabs:
     url: /about/
     order: 5
 
-timezone: Asia/Shanghai
+
 
 tag_path: /tags
 # Build settings
