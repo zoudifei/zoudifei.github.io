@@ -1,0 +1,20 @@
+-
+  name: 首页
+  icon: fas fa-home
+  url: /
+-
+  name: 分类
+  icon: fas fa-folder
+  url: /categories/
+-
+  name: 标签
+  icon: fas fa-tags
+  url: /tags/
+-
+  name: 归档
+  icon: fas fa-box-archive
+  url: /archives/
+-
+  name: 关于
+  icon: fas fa-user
+  url: /about/
