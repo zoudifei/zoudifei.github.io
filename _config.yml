@@ -35,26 +35,26 @@ social:
 lang: zh-CN
 
 # _config.yml
-tabs:
-  - name: categories          # 分类列表 Tab
-    icon: fas fa-folder # 分类图标
-    url: /categories/   # 分类列表页路径（需与分类页面 permalink 一致）
-    order: 2
+# tabs:
+#   - name: categories          # 分类列表 Tab
+#     icon: fas fa-folder # 分类图标
+#     url: /categories/   # 分类列表页路径（需与分类页面 permalink 一致）
+#     order: 2
 
-  - name: tag         # 标签列表 Tab（可选，与分类搭配使用）
-    icon: fas fa-tags
-    url: /tags/
-    order: 3
+#   - name: tag         # 标签列表 Tab（可选，与分类搭配使用）
+#     icon: fas fa-tags
+#     url: /tags/
+#     order: 3
 
-  - name: archives         # 标签列表 Tab（可选，与分类搭配使用）
-    icon: fas fa-box-archive
-    url: /archives/
-    order: 4
+#   - name: archives         # 标签列表 Tab（可选，与分类搭配使用）
+#     icon: fas fa-box-archive
+#     url: /archives/
+#     order: 4
 
-  - name: about
-    icon: fas fa-user
-    url: /about/
-    order: 5
+#   - name: about
+#     icon: fas fa-user
+#     url: /about/
+#     order: 5
 
 timezone: Asia/Shanghai
 
