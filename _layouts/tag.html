@@ -1,35 +1,23 @@
 ---
-layout: default  # 继承默认模板（主题自带，确保页面样式和博客一致）
+layout: page
+# The layout for Tag page
 ---
 
-<div class="page">
-  <h1 class="page-title">标签：{{ page.tag }}</h1>  <!-- 显示当前标签名 -->
-  <ul class="post-list">
-    <!-- 遍历所有文章，筛选出当前标签的文章 -->
-    {% for post in site.tags[page.tag] %}
-      <li>
-        <!-- 显示文章发布日期 -->
-        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-        <!-- 文章标题+链接 -->
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title }}
-          </a>
-        </h3>
-        <!-- 显示文章摘要（可选，没有摘要则显示正文前100字） -->
-        <p class="post-excerpt">
-          {% if post.excerpt %}
-            {{ post.excerpt | strip_html | truncate: 100 }}  <!-- 截取100字，去除HTML标签 -->
-          {% else %}
-            {{ post.content | strip_html | truncate: 100 }}
-          {% endif %}
-        </p>
+{% include lang.html %}
+
+<div id="page-tag">
+  <h1 class="ps-lg-2">
+    <i class="fa fa-tag fa-fw text-muted"></i>
+    {{ page.title }}
+    <span class="lead text-muted ps-2">{{ page.posts | size }}</span>
+  </h1>
+  <ul class="content ps-0">
+    {% for post in page.posts %}
+      <li class="d-flex justify-content-between px-md-3">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="dash flex-grow-1"></span>
+        {% include datetime.html date=post.date class='text-muted small text-nowrap' lang=lang %}
       </li>
     {% endfor %}
   </ul>
-
-  <!-- 跳转回「所有标签汇总页」的链接 -->
-  <p class="tag-back-link">
-    <a href="{{ '/tags/' | relative_url }}">← 返回所有标签</a>
-  </p>
 </div>
