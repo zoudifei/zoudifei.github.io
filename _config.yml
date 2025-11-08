@@ -65,7 +65,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-archives  # 启用插件
 
-avatar: /assets/img/avatar.png
+avatar: /assets/img/avatar.jpg
 favicon:
   small: /assets/img/favicons/favicon-small.png  # 小尺寸图标
   medium: /assets/img/favicons/favicon-small.png # 中尺寸图标
@@ -79,8 +79,8 @@ jekyll-archives:
     - tags  # 只生成标签页（如需分类页可加 categories）
     - categories
   layouts:  # 注意：这里是复数 layouts，不是单数 layout！
-    tag: tags       # 标签页使用 _layouts/tag.html 布局
-    category: categorys  # 分类页使用 _layouts/category.html 布局
+    tag: tag       # 标签页使用 _layouts/tag.html 布局
+    category: category  # 分类页使用 _layouts/category.html 布局
   permalinks:
     tag: '/tags/:name/'  # 标签页的 URL 格式，需与链接路径一致
     category: '/categories/:name/' 
