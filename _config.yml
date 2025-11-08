@@ -47,7 +47,7 @@ tabs:
     order: 3
 
   - name: archives         # 标签列表 Tab（可选，与分类搭配使用）
-    icon: fas fa-archives
+    icon: fas fa-box-archive
     url: /archives/
     order: 4
 
