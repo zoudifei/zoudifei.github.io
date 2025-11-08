@@ -30,7 +30,6 @@ The following table will help you understand the changes to the favicon files:
 | `*.PNG`             | ✓                                 | ✗           |
 | `*.ICO`             | ✓                                 | ✗           |
 
-<!-- markdownlint-disable-next-line -->
 >  ✓ means keep, ✗ means delete.
 {: .prompt-info }
 
