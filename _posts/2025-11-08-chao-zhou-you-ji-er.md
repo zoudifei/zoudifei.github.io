@@ -4,7 +4,7 @@ date: 2025-11-08 21:25:58 +0800
 layout: post
 categories: ['旅行散记']
 tags: ['旅行', '美食', '广东']
-author: 沐青桦
+author: mutsinghua
 ---
 
 # 潮州游记二

@@ -4,7 +4,7 @@ date: 2025-11-03 12:02:12 +0800
 layout: post
 categories: [投资理财]
 tags: [投资,价值,股票]     # TAG names should always be lowercase
-author: 沐青桦
+author: mutsinghua
 ---
 
 投资的核心逻辑，是在不确定性风险与确定性成长之间的持续博弈。正如沃伦・巴菲特在致股东信中所言：“我们倾向于选择那些不太可能发生重大变化的企业和行业。快速变化的行业环境或许能催生短期暴利，但它缺乏我们所追求的长期确定性。”
