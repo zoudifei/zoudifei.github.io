@@ -65,8 +65,12 @@ plugins:
   - jekyll-remote-theme
   - jekyll-archives  # 启用插件
 
-  
-  
+avatar: /assets/img/avatar.png
+favicon:
+  small: /assets/img/favicons/favicon-small.png  # 小尺寸图标
+  medium: /assets/img/favicons/favicon-small.png # 中尺寸图标
+  large: /assets/img/favicons/favicon-mid.png  # 大尺寸图标
+   
 paginate: 10          # 首页每页显示 10 篇文章（可自定义）
 paginate_path: "/page:num/"  # 分页路径（固定格式，不要改）
 
