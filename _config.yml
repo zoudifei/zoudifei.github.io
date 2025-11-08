@@ -28,11 +28,33 @@ author: "沐青桦"
 github_username:  zoudifei
 
 social:
-  name: zoudifei  # 这里修改为你的名称
+  name: zoudifei.com  # 这里修改为你的名称
   links:
     - https://www.zoudifei.com  # 可选，版权信息中的链接
   email: mutsinghua@gmail.com
 
+
+# _config.yml
+tabs:
+  - name: 首页          # Tab 显示名称（支持中文）
+    icon: fas fa-home   # 图标（Font Awesome 类名，主题默认集成）
+    url: /              # 跳转路径（相对路径）
+    order: 1            # 排序优先级（数字越小越靠前）
+
+  - name: 分类          # 分类列表 Tab
+    icon: fas fa-folder # 分类图标
+    url: /categories/   # 分类列表页路径（需与分类页面 permalink 一致）
+    order: 2
+
+  - name: 标签          # 标签列表 Tab（可选，与分类搭配使用）
+    icon: fas fa-tags
+    url: /tags/
+    order: 3
+
+  - name: 关于我
+    icon: fas fa-user
+    url: /about/
+    order: 4
 
 timezone: Asia/Shanghai
 
