@@ -12,12 +12,9 @@ layout: page
   {% assign sorted_tags = tags | sort_natural %}
 
   {% for t in sorted_tags %}
-   {% assign tag_name = t[0] %}
-    {% assign tag_url = tag_name | slugify | url_encode | prepend: site.tag_path | append: '/' | relative_url %}
-
     <div>
-      <a class="tag" href="{{ tag_url }}">
-        {{ tag_name }}
+      <a class="tag" href="{{ t | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}">
+        {{ t -}}
         <span class="text-muted">{{ site.tags[t].size }}</span>
       </a>
     </div>

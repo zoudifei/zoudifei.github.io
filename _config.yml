@@ -39,10 +39,20 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-remote-theme
+  - jekyll-archives  # 启用插件
+
+  
   
 paginate: 10          # 首页每页显示 10 篇文章（可自定义）
 paginate_path: "/page:num/"  # 分页路径（固定格式，不要改）
 
+jekyll-archives:
+  enabled:
+    - tags  # 只生成标签页（如需分类页可加 categories）
+  layout: tag  # 使用 _layouts/tag.html 作为单个标签页的布局
+  permalinks:
+    tag: '/tags/:name/'  # 标签页的 URL 格式，需与链接路径一致
+    
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

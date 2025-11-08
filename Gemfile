@@ -42,6 +42,7 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "jekyll-theme-chirpy", "~> 7.4"
 
+gem "jekyll-archives"
 
 
 
