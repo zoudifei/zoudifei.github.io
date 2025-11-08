@@ -30,6 +30,11 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    env:
+      # 禁用日志截断，确保详细日志完整输出
+      ACTIONS_STEP_DEBUG: true
+      # 可选：Jekyll 调试模式（输出更多插件细节）
+      JEKYLL_DEBUG: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -45,7 +50,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --verbose
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
