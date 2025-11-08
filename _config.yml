@@ -73,9 +73,12 @@ paginate_path: "/page:num/"  # 分页路径（固定格式，不要改）
 jekyll-archives:
   enabled:
     - tags  # 只生成标签页（如需分类页可加 categories）
+    - categories
   layout: tag  # 使用 _layouts/tag.html 作为单个标签页的布局
+  layout: category
   permalinks:
     tag: '/tags/:name/'  # 标签页的 URL 格式，需与链接路径一致
+    category: '/categories/:name/' 
     
 # Exclude from processing.
 # The following items will not be processed, by default.
