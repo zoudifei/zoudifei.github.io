@@ -1,9 +1,9 @@
 ---
 title: 潮州游记其二
-date: 2025-11-08 21:25:58 +0800
+date: 2025-11-08 22:00:22 +0800
 layout: post
 categories: [旅行散记]
-tags: [旅行,美食,广东]
+tags: [广东, 美食, 旅行]
 author: mutsinghua
 ---
 
