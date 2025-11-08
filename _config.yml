@@ -46,10 +46,15 @@ tabs:
     url: /tags/
     order: 3
 
+  - name: archives         # 标签列表 Tab（可选，与分类搭配使用）
+    icon: fas fa-archives
+    url: /archives/
+    order: 4
+
   - name: about
     icon: fas fa-user
     url: /about/
-    order: 4
+    order: 5
 
 timezone: Asia/Shanghai
 
