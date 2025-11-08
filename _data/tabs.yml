@@ -1,24 +1,24 @@
-- name: Home
-  url: /
-  icon: fas fa-home
-  order: 1
+# - name: Home
+#   url: /
+#   icon: fas fa-home
+#   order: 1
 
-- name: Categories
-  url: /categories/
-  icon: fas fa-folder
-  order: 2
+# - name: Categories
+#   url: /categories/
+#   icon: fas fa-folder
+#   order: 2
 
-- name: Tags
-  url: /tags/
-  icon: fas fa-tags
-  order: 3
+# - name: Tags
+#   url: /tags/
+#   icon: fas fa-tags
+#   order: 3
 
-- name: Archives
-  url: /archives/
-  icon: fas fa-archive
-  order: 4
+# - name: Archives
+#   url: /archives/
+#   icon: fas fa-archive
+#   order: 4
 
-- name: About
-  url: /about/
-  icon: fas fa-user
-  order: 5
+# - name: About
+#   url: /about/
+#   icon: fas fa-user
+#   order: 5
