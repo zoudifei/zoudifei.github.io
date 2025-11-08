@@ -36,17 +36,17 @@ lang: zh-CN
 
 # _config.yml
 tabs:
-  - name: 分类          # 分类列表 Tab
+  - name: categories          # 分类列表 Tab
     icon: fas fa-folder # 分类图标
     url: /categories/   # 分类列表页路径（需与分类页面 permalink 一致）
     order: 2
 
-  - name: 标签          # 标签列表 Tab（可选，与分类搭配使用）
+  - name: tag         # 标签列表 Tab（可选，与分类搭配使用）
     icon: fas fa-tags
     url: /tags/
     order: 3
 
-  - name: 关于我
+  - name: about
     icon: fas fa-user
     url: /about/
     order: 4
