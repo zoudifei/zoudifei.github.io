@@ -36,3 +36,4 @@ author: mutsinghua
 
 愿每个人都能在股市中有所收获，实现自己的财富梦想。
 附[投资书单](https://weread.qq.com/misc/booklist/21418246_7NEXZszlQ){:target="_blank"}
+![书单二维码](/assets/img/booklist.PNG)
