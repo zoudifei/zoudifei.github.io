@@ -35,6 +35,7 @@ jobs:
       ACTIONS_STEP_DEBUG: false
       # 可选：Jekyll 调试模式（输出更多插件细节）
       JEKYLL_DEBUG: false
+      JEKYLL_ENV: production  # 仅保留必要环境变量
     steps:
       - name: Checkout
         uses: actions/checkout@v4
