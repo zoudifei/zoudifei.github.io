@@ -51,7 +51,7 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'  # 自动缓存 npm 依赖（基于 package.json + package-lock.json）
-          cache-dependency-path: package-lock.json  # 明确缓存依据文件
+          
       - name: Install Node dependencies
         run: npm install
       - name: Build front-end assets
