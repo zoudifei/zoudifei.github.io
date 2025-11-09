@@ -32,9 +32,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # 禁用日志截断，确保详细日志完整输出
-      ACTIONS_STEP_DEBUG: true
+      ACTIONS_STEP_DEBUG: false
       # 可选：Jekyll 调试模式（输出更多插件细节）
-      JEKYLL_DEBUG: true
+      JEKYLL_DEBUG: false
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -50,6 +50,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'  # 自动缓存 npm 依赖（基于 package.json + package-lock.json）
+          cache-dependency-path: package-lock.json  # 明确缓存依据文件
       - name: Install Node dependencies
         run: npm install
       - name: Build front-end assets
@@ -60,7 +62,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --verbose
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"  --incremental
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
