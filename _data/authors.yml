@@ -17,7 +17,7 @@ sille_bille:
   url: https://github.com/SilleBille/
 
 mutsinghua:  # 自定义用户名（如你的 GitHub 用户名或笔名）
-  name: 沐青桦  # 作者显示名称（中文）
+  name: 邹迪飞  # 作者显示名称（中文）
   url: https://zoudifei.com  # 可选，作者个人主页
   avatar: /assets/img/avatar.jpg  # 可选，作者头像路径（需在 assets/img 中放置头像图片）
   # 其他可选字段（如 social 社交链接）
