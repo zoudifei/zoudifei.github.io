@@ -86,15 +86,15 @@ function isMobileView() {
 }
 
 export function displaySearch() {
+  // 移除原有搜索结果相关逻辑
   $btnSearchTrigger.on('click', function () {
     MobileSearchBar.on();
-    ResultSwitch.on();
     $input.trigger('focus');
   });
 
   $btnCancel.on('click', function () {
     MobileSearchBar.off();
-    ResultSwitch.off();
+    $input.val('');
   });
 
   $input.on('focus', function () {
@@ -105,18 +105,10 @@ export function displaySearch() {
     $search.removeClass(C_FOCUS);
   });
 
-  $input.on('input', () => {
-    if ($input.val() === '') {
-      if (isMobileView()) {
-        $hints.removeClass(C_UNLOADED);
-      } else {
-        ResultSwitch.off();
-      }
-    } else {
-      ResultSwitch.on();
-      if (isMobileView()) {
-        $hints.addClass(C_UNLOADED);
-      }
+  // 按回车提交表单
+  $input.on('keypress', function(e) {
+    if (e.which === 13) {
+      $(this).closest('form').submit();
     }
   });
 }
