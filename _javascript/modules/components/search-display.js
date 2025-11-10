@@ -86,32 +86,38 @@ function isMobileView() {
 }
 
 // 更新 _javascript/modules/components/search-display.js
+// 修改 _javascript/modules/components/search-display.js
 export function displaySearch() {
   const $input = $('#search-input');
   const $form = $input.closest('form');
+  const $searchCancel = $('#search-cancel');
 
-  // 点击搜索图标聚焦输入框
+  // 点击搜索图标仅聚焦输入框（移除原有 ResultSwitch.on()）
   $('#search-trigger').on('click', function () {
     MobileSearchBar.on();
     $input.trigger('focus');
   });
 
-  // 取消按钮逻辑
-  $('#search-cancel').on('click', function () {
+  // 取消按钮仅关闭搜索栏（移除原有 ResultSwitch.off()）
+  $searchCancel.on('click', function () {
     MobileSearchBar.off();
     $input.val('');
   });
 
-  // 回车提交表单（确保覆盖所有提交场景）
+  // 保留基础交互
+  $input.on('focus', () => $search.addClass(C_FOCUS));
+  $input.on('focusout', () => $search.removeClass(C_FOCUS));
+
+  // 回车提交表单（确保优先执行）
   $input.on('keypress', function(e) {
     if (e.which === 13) {
-      e.preventDefault();
-      $form.submit();
+      e.preventDefault(); // 阻止默认行为
+      $form.submit(); // 直接提交到百度
     }
   });
 
-  // 点击搜索图标提交（如果有图标点击事件）
-  $form.find('i.fa-search').parent().on('click', function(e) {
+  // 点击搜索图标提交表单
+  $search.find('.fa-search').parent().on('click', function(e) {
     e.preventDefault();
     $form.submit();
   });

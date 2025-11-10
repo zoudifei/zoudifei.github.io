@@ -66,16 +66,12 @@
     const domain = '{{ site.url | remove:'http://' | remove:'https://' }}';
     const input = this.wd;
     const originalValue = input.value.trim();
-    // 临时保存原始值
-    input.dataset.originalValue = originalValue;
-    // 拼接 site: 指令
+    // 仅在用户未手动输入 site: 时自动添加
     if (originalValue && !originalValue.includes('site:')) {
       input.value = originalValue + ' site:' + domain;
+      // 提交后立即恢复原始值（避免用户看到拼接内容）
+      setTimeout(() => input.value = originalValue, 0);
     }
-    // 提交后恢复原始值（使用setTimeout避免表单提交被阻断）
-    setTimeout(() => {
-      input.value = originalValue;
-    }, 0);
   ">
         <input
                 class="form-control"
