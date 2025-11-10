@@ -85,30 +85,34 @@ function isMobileView() {
   return $btnCancel.hasClass(C_LOADED);
 }
 
+// 更新 _javascript/modules/components/search-display.js
 export function displaySearch() {
-  // 移除原有搜索结果相关逻辑
-  $btnSearchTrigger.on('click', function () {
+  const $input = $('#search-input');
+  const $form = $input.closest('form');
+
+  // 点击搜索图标聚焦输入框
+  $('#search-trigger').on('click', function () {
     MobileSearchBar.on();
     $input.trigger('focus');
   });
 
-  $btnCancel.on('click', function () {
+  // 取消按钮逻辑
+  $('#search-cancel').on('click', function () {
     MobileSearchBar.off();
     $input.val('');
   });
 
-  $input.on('focus', function () {
-    $search.addClass(C_FOCUS);
-  });
-
-  $input.on('focusout', function () {
-    $search.removeClass(C_FOCUS);
-  });
-
-  // 按回车提交表单
+  // 回车提交表单（确保覆盖所有提交场景）
   $input.on('keypress', function(e) {
     if (e.which === 13) {
-      $(this).closest('form').submit();
+      e.preventDefault();
+      $form.submit();
     }
+  });
+
+  // 点击搜索图标提交（如果有图标点击事件）
+  $form.find('i.fa-search').parent().on('click', function(e) {
+    e.preventDefault();
+    $form.submit();
   });
 }
