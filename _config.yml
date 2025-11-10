@@ -70,6 +70,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-remote-theme
   - jekyll-archives  # 启用插件
+  - jekyll-search 
 
 avatar: /assets/img/avatar.jpg
 favicon:
@@ -92,6 +93,21 @@ jekyll-archives:
     category: '/categories/:name/' 
   exclude:
     - index.html  
+
+search:
+  enabled: true  # 启用搜索功能
+  path: search.json  # 索引文件路径（默认即可）
+  title_only: false  # 是否只搜索标题（false=搜索标题+正文+标签+分类）
+  excerpt_only: false  # 是否只搜索摘要（false=搜索完整内容）
+  highlight: true  # 搜索结果是否高亮匹配关键词
+  # 配置需要索引的页面类型（默认包含文章和页面，可按需调整）
+  include:
+    - posts
+    - pages
+  # 排除不需要索引的页面（比如隐私政策、404 页等）
+  exclude:
+    - 404.html
+    - index.html
 
 collections:
   tabs:
