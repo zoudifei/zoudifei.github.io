@@ -18,7 +18,6 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-remote-theme", "~> 0.4.3"  # 升级到最新兼容版本
   # Chirpy 必需插件
-  gem "jekyll-search" 
   gem "jekyll-paginate"       # 分页功能
   gem "jekyll-sitemap"        # 站点地图
   gem "jekyll-seo-tag"        # SEO 优化
