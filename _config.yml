@@ -23,7 +23,7 @@ email: zoudifei@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   分享生活，科技，投资的个人博客，用 Jekyll + GitHub Pages 搭建～
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://zoudifei.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://zoudifei.com" # the base hostname & protocol for your site, e.g. http://example.com
 author: "邹迪飞"
 github_username:  zoudifei
 
