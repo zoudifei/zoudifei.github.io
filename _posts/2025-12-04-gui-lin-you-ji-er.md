@@ -18,7 +18,7 @@ author: mutsinghua
 
 <center>
 <a href="/assets/video/20251204.rqq.mp4" target="_blank">
-  <img src="/assets/img/20251204.rqq.jpg" alt="视频封面" style="display: block; margin: 0 auto;">
+  <img src="/assets/img/20251204.rqq.jpg" alt="视频封面" style="display: block; margin: 0 auto;" />
 </a>
 </center>
 如果说热气球是阳朔近年兴起的新潮体验，那么遇龙河的竹筏漂流，则是这片山水不可错过的传统经典。我们选的是三人筏，自揽胜桥码头出发，顺流而下，再折返而归。
@@ -27,7 +27,7 @@ author: mutsinghua
 “舟行碧波上，人在画中游。”遇龙河的水，宛如一块无瑕的翡翠，在日光下泛着温润而灵动的光泽，水底青荇摇曳，小鱼穿梭其间，倏忽来去，为这波光粼粼的碧水平添几分生趣。忍不住伸手轻触河水，凉意瞬间穿透肌肤，将夏日的燥热涤荡一空，只余神清气爽。遇龙河的竹筏体验，最有趣的当属“三上三下”，也就是来回上三个坝、下三个坝。上坝借助电动的传送带，随着竹筏缓缓爬上水坝，竹筏的前端便逐渐悬空，紧接着，随着竹筏后面的重量无法支撑起前端，前端便狠狠的砸落在水面上，溅起高高的水花，如银珠般洒落在我们身上，衣衫尽湿，带来一阵清凉，一声惊呼，喜悦而又趣味盎然。
 <center>
 <a href="/assets/video/20251204.zf.mp4" target="_blank">
-  <img src="/assets/img/20251204.zf.jpg" alt="视频封面" style="display: block; margin: 0 auto;">
+  <img src="/assets/img/20251204.zf.jpg" alt="视频封面" style="display: block; margin: 0 auto;" />
 </a>
 </center>
 
