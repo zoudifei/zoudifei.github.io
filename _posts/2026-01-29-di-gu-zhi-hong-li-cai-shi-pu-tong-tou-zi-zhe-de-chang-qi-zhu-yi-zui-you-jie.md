@@ -2,7 +2,7 @@
 title: 低估值红利，才是普通投资者的“长期主义”最优解
 date: 2026-01-29 12:20:59 +0800
 layout: post
-categories: [投资理财, 读书笔记]
+categories: [读书笔记]
 tags: [感悟, 股票, 读书, 投资]
 author: mutsinghua
 ---

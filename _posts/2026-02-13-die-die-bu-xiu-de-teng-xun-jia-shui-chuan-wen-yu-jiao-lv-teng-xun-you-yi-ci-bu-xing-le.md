@@ -2,7 +2,7 @@
 title: 跌跌不休的腾讯：加税传闻与AI 焦虑——腾讯又一次 “不行了”?
 date: 2026-02-13 12:19:58 +0800
 layout: post
-categories: [投资理财, 行业观察]
+categories: [行业观察]
 tags: [行业, 投资]
 author: mutsinghua
 ---
