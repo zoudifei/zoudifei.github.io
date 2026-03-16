@@ -51,7 +51,7 @@ author: mutsinghua
 想通这些后，我没有丝毫犹豫，立马在支付宝上调整了自己的社保缴费基数，从60%档调到了80%档。
 
 <center>
-<img src="/assets/img/20260225.zfb.png" alt="社保"  />
+<img src="/assets/img/2026/20260225.zfb.png" alt="社保"  />
 </center>
 
 ## 写在最后

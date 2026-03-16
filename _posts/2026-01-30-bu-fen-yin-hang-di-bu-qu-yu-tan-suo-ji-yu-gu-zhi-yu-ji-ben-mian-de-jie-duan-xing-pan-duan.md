@@ -17,7 +17,7 @@ author: mutsinghua
 下表汇总了四家银行近期的最低点关键估值与基本面数据：
 
 <center>
-<img src="/assets/img/20260130.jbsj.png" alt="最低点关键估值"  />
+<img src="/assets/img/2026/20260130.jbsj.png" alt="最低点关键估值"  />
 </center>
 
 ## 二、从“股息率 vs 无风险利率”看安全边际
@@ -25,7 +25,7 @@ author: mutsinghua
 当前十年期国债收益率约为 1.82%，一年期存款利率在 0.95%-1.15% 区间。我们以十年期国债作为无风险利率基准，计算各银行股的股息率相对于无风险利率的倍数，结果如下：
 
 <center>
-<img src="/assets/img/20260130.ps.png" alt="无风险利率的倍数"  />
+<img src="/assets/img/2026/20260130.ps.png" alt="无风险利率的倍数"  />
 </center>
 
 ## 三、底部信号记录
