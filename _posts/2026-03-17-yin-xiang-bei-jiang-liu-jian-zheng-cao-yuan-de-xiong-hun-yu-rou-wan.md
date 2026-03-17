@@ -3,7 +3,7 @@ title: 印象北疆（六）——见证草原的雄浑与柔婉
 date: 2026-03-17 09:39:23 +0800
 layout: post
 categories: [旅行散记]
-tags: [旅行]
+tags: [旅行,新疆]
 author: mutsinghua
 ---
 

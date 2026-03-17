@@ -3,7 +3,7 @@ title: 印象北疆（一）——从喀纳斯湖的水怪开始
 date: 2026-03-07 17:30:48 +0800
 layout: post
 categories: [旅行散记]
-tags: [旅行]
+tags: [旅行,新疆]
 author: mutsinghua
 ---
 

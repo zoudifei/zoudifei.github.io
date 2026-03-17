@@ -3,7 +3,7 @@ title: 印象北疆（四）——邂逅戈壁苍凉
 date: 2026-03-16 09:03:17 +0800
 layout: post
 categories: [旅行散记]
-tags: [旅行]
+tags: [旅行,新疆]
 author: mutsinghua
 ---
 

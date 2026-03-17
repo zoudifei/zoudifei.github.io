@@ -3,7 +3,7 @@ title: 印象北疆（三）——禾木：俄蒙边境的世外桃源
 date: 2026-03-14 13:19:43 +0800
 layout: post
 categories: [旅行散记]
-tags: [旅行]
+tags: [旅行,新疆]
 author: mutsinghua
 ---
 
