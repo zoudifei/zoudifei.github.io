@@ -20,15 +20,11 @@ author: mutsinghua
 
 此番停留，我们没有深入市区闹市，只为择了连岛暂住，休整身心。盛夏酷暑蒸腾，白日的海岛闷热难耐，仓促逛了逛连岛主景区，不过短短一个多小时便匆匆离场。海边的常规景致，并无太多惊喜，算不上值得专程奔赴的风光。
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/rWQCWNJz38OnicKibVFQfJToQyicTLibS67gibdgh2hfQbnuwsHjyxfpwTHhFFnz4oqqND2aBkT4p3vfIDWnZLCgdeWGdRPr84Dcvp048ZRC70dc/0?wx_fmt=jpeg)
 
 倒是傍晚时分，暑气渐消，海风微凉。我们骑着小电驴穿梭西连岛，意外邂逅了此行难得的治愈景致。一路行至西连岛的灯塔之下，落日悬于海面，余晖洒满海岸线，层层叠叠的光影铺在彩色海堤上。蓝的海、橙的霞、斑斓的堤岸相互映衬，海风拂面，浪声轻柔，静谧又辽阔，是独属于海滨黄昏的温柔浪漫，也是整段连岛之行最值得回味的风景。
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/rWQCWNJz38O0r6N0Do5otMu9fcW5WLmzIPhyz5Yu2FaX1aOonbzpibvoyEAqK7OiaLzTdkZSjK4PwEaR0llZJQVr4zS1l9vcmyFzic4ibC7DRdU/0?wx_fmt=jpeg)
 
 孩童的乐趣却全然不同。孩子的目光跳过壮阔海景，牢牢锁定了海堤围墙垛间偌大的蜘蛛网，拇指大小的蜘蛛盘踞其间，只待外卖自行上门。
-
-![](http://mmbiz.qpic.cn/sz_mmbiz_jpg/rWQCWNJz38PZU7MBFrquXpyke447EABjib3LHFDEVfOmGbUcG07Y0xYe5HZytlaHFWNbrYZredbXAeYKrBiaCicJrh7icf7iaFmUbNUlDzcIEZOU/0?wx_fmt=jpeg)
 
 大人看山海辽阔，悟天地格局；孩童探微小生灵，寻自然趣味。一静一动，各得其乐，也让寻常的海边黄昏，多了几分鲜活的烟火气息。
 
